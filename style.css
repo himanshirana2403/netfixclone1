@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #353935;
+    color: white;
+}
+
+.box1 {
+    width: 100%;
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("back.gif");
+    background-size: cover;
+    background-position: centre;
+    padding: 10px 8%;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0%;
+}
+
+.logo {
+    width: 170px;
+    cursor: pointer;
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 4px;
+    cursor: pointer;
+
+}
+
+.butn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px 15px;
+}
+
+.contnt {
+    margin-top: 11%;
+    text-align: center;
+}
+
+.contnt h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.contnt h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.contnt p {
+
+    font-size: 20px;
+}
+
+.eml input {
+    background: rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.eml button {
+    background: red;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.p1 {
+    padding: 50px 12%;
+    font-size: 22px;
+    background-color: black;
+
+}
+
+.ch1 {
+
+    display: flex;
+    width: 100%;
+    align-items: :center;
+    height: 500px;
+}
+
+.im1 img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.ch2 {
+    padding: 50px 12%;
+    font-size: 22px;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    align-items: :center;
+    height: 600px;
+}
+
+.im2 img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.ch3 {
+    padding: 50px 12%;
+    font-size: 23px;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    align-items: :center;
+    height: 600px;
+}
+
+.im3 img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.ch4 {
+    padding: 50px 12%;
+    font-size: 22px;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    align-items: :center;
+    height: 600px;
+}
+
+.im4 img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.big {
+    background-color: black;
+    padding: 70px;
+}
+
+.faq p {
+
+    justify-content: space-between;
+    align-items: center;
+    background: #353935;
+    padding: 25px;
+    margin-left: 10%;
+    font-size: 20px;
+    width: 80%;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.last {
+    background-color: black;
+    width: 100%;
+    height: 620px;
+    color: #A9A9A9;
+    padding: 50px 15% 10px;
+
+    cursor: pointer;
+
+}
+
+.last h2 {
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.last .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    float: left;
+    padding: 110px;
+}
+
+.last .col a {
+    display: block;
+    font-size: 19px;
+    font-weight: 15px;
+
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #A9A9A9;
+}
+
+.last .row {
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+/*--------*/
+@media only screen and (max-widtg: 600px) {
+    .logo {
+        width: 100px;
+    }
+
+
+}
